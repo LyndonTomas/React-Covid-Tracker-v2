@@ -1,0 +1,30 @@
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    background:black;
+    color:white;
+    font-family: 'Noto Sans JP', Arial ;
+    margin: 5%;
+    
+}
+
+.card__inner{
+    margin: auto;
+    max-height: 200px;
+}
+
+li{
+    list-style-type:none;
+}
+
+img{
+    max-width:20%;
+}
+
+@media(max-width:768px){
+    ul{
+        grid-template-columns: 1fr;
+    }
+}
